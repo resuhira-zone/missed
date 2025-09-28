@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love, Resu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f9a8d4, #e11d48, #f9a8d4);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            animation: fadeInBounce 1.2s ease-out;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .hero {
+            padding: 60px 30px 40px;
+            text-align: center;
+            background: linear-gradient(120deg, rgba(249, 168, 212, 0.3), rgba(225, 29, 72, 0.2));
+        }
+        
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2rem;
+            margin-bottom: 15px;
+            color: #e11d48;
+            animation: glow 3s infinite alternate;
+        }
+        
+        .hero p {
+            font-size: 1.4rem;
+            color: #6b7280;
+            font-weight: 300;
+        }
+        
+        .message-card {
+            background: linear-gradient(135deg, #f9a8d4, #fce7f3);
+            margin: 30px;
+            padding: 40px;
+            border-radius: 15px;
+            border: 1px solid #f9a8d4;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #6b7280;
+            text-align: center;
+        }
+        
+        .divider {
+            height: 2px;
+            background: linear-gradient(to right, #e11d48, #f9a8d4);
+            margin: 20px 30px;
+        }
+        
+        .footer {
+            padding: 30px;
+            text-align: center;
+            color: #6b7280;
+            font-size: 1.1rem;
+        }
+        
+        /* Animations */
+        @keyframes fadeInBounce {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            60% {
+                opacity: 1;
+                transform: translateY(-10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 5px rgba(225, 29, 72, 0.5);
+            }
+            to {
+                text-shadow: 0 0 20px rgba(225, 29, 72, 0.8), 0 0 30px rgba(225, 29, 72, 0.6);
+            }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.2rem;
+            }
+            
+            .message-card {
+                margin: 20px;
+                padding: 25px;
+                font-size: 1.1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .message-card {
+                margin: 15px;
+                padding: 20px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <h1>💖 To My Love, Resu 💖</h1>
+            <p>I really very miss you mera baccha 🥺❤️</p>
+        </section>
+        
+        <div class="message-card">
+            "Distance means nothing when someone means everything.
+            Even across the miles, you are my light, my smile, my forever.
+            One day soon, I'll hold you close and never let you go 🤍✨"
+        </div>
+        
+        <div class="divider"></div>
+        
+        <footer class="footer">
+            Always & Forever Yours 💌
+        </footer>
+    </div>
+</body>
+</html>
